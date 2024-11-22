@@ -15,7 +15,7 @@ const App = () => {
       setSelectedMovie(null);
       setRecommendedMovies([]);
     }
-  }, [query]);
+  }, [query, selectedMovie]);
 
   const handleSearchChange = async (e) => {
     const searchQuery = e.target.value;
