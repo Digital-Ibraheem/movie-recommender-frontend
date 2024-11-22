@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { searchMovies, recommendMovies } from './services/api';
-import { Search, Moon, Sun } from 'lucide-react';
+import { Search, Moon, Sun, Github } from 'lucide-react';
 
 const App = () => {
   const [query, setQuery] = useState('');
@@ -134,6 +134,11 @@ const App = () => {
             </ul>
           </div>
         )}
+        
+        <a href="https://github.com/Digital-Ibraheem/movie-recommender-backend" target='_blank'>
+          <Github className="w-6 h-6" onCl/>
+        </a>
+        
       </div>
     </div>
   );
