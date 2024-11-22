@@ -135,7 +135,7 @@ const App = () => {
           </div>
         )}
         
-        <a href="https://github.com/Digital-Ibraheem/movie-recommender-backend" target='_blank'>
+        <a href="https://github.com/Digital-Ibraheem/movie-recommender-backend" target='_blank' rel="noreferrer">
           <Github className="w-6 h-6" onCl/>
         </a>
         
